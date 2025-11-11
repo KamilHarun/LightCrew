@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "films": "FILMS",
+    "commercials": "COMMERCIALS",
+    "clips": "CLIPS",
+    "contact": "CONTACT",
+    "consultation": "GET CONSULTATION"
+  },
+  "hero": {
+    "description": "Professional Gaffer Services | Cinematic Lighting Excellence | Lighting and Grip in Azerbaijan",
+    "contactUs": "CONTACT US",
+    "viewWork": "VIEW OUR WORK",
+    "projects": "PROJECTS",
+    "experience": "YEARS EXPERIENCE",
+    "filmLighting": "Film Lighting",
+    "professionalQuality": "Professional quality"
+  },
+  "services": {
+    "title": "OUR SERVICES",
+    "subtitle": "Professional lighting solutions",
+    "filmLighting": "Film Lighting",
+    "filmLightingDesc": "Complete professional lighting solutions for cinematographic projects. Perfect lighting for every shoot.",
+    "commercialShooting": "Commercial Shoots",
+    "commercialShootingDesc": "Creative lighting designs and solutions for advertising and commercial projects.",
+    "studioLighting": "Studio Lighting",
+    "studioLightingDesc": "Complete equipment and service for studio shoots and podcast productions.",
+    "eventLighting": "Event Lighting",
+    "eventLightingDesc": "Dynamic lighting systems for concerts, theater and special events.",
+    "equipmentRental": "Equipment Rental",
+    "equipmentRentalDesc": "Rental of professional lighting equipment with the latest technology.",
+    "consultationService": "Consultation Service",
+    "consultationServiceDesc": "Expert advice on project planning and lighting design."
+  },
+  "films": {
+    "title": "FILMS",
+    "subtitle": "Our feature film projects"
+  },
+  "commercials": {
+    "title": "COMMERCIALS",
+    "subtitle": "Our commercial projects"
+  },
+  "clips": {
+    "title": "CLIPS",
+    "subtitle": "Our music video projects"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "description": "Let's talk about your project and offer you the best solution.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone",
+    "messagePlaceholder": "Your Message",
+    "send": "SEND"
+  },
+  "footer": {
+    "description": "Professional Gaffer Services | Cinematic Lighting Excellence",
+    "links": "LINKS",
+    "copyright": "© 2024 Light Crew Azerbaijan. All rights reserved."
+  }
+}

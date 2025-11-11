@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Crew Azerbaijan | Professional Gaffer Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-website active" id="mainWebsite"> 
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="nav-logo">LIGHT CREW AZ</div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html#home">HOME</a></li>
+                <li><a href="team.html" class="active">TEAM</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+            </ul>
+        
+            <div class="nav-right">
+                <div class="language-dropdown">
+                    <button class="lang-globe-btn" id="navLangBtn">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-badge">EN</span>
+                    </button>
+                    <div class="lang-dropdown-menu" id="navLangMenu">
+                        <div class="lang-option active" data-lang="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span class="lang-name">English</span>
+                        </div>
+                        <div class="lang-option" data-lang="az">
+                            <span class="lang-flag">🇦🇿</span>
+                            <span class="lang-name">Azərbaycan</span>
+                        </div>
+                        <div class="lang-option" data-lang="ru">
+                            <span class="lang-flag">🇷🇺</span>
+                            <span class="lang-name">Русский</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-cta" data-i18n="navigation.consultation">GET CONSULTATION</button>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Light Crew<br>Azerbaijan
+                </h1>
+                <p class="hero-description" data-i18n="hero.description">
+                    Professional Gaffer Services | Cinematic Lighting Excellence | Lighting and Grip in Azerbaijan
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary" data-i18n="hero.contactUs">CONTACT US</a>
+                    <a href="#films" class="btn-secondary" data-i18n="hero.viewWork">VIEW OUR WORK</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label" data-i18n="hero.projects">PROJECTS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label" data-i18n="hero.experience">YEARS EXPERIENCE</div>
+                    </div>
+               </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-slider-wrapper">
+                    <div class="hero-slide active">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&q=80" alt="Film Production">
+                            <div class="card-overlay">
+                                <h3 data-i18n="hero.filmLighting">Film Lighting</h3>
+                                <p data-i18n="hero.professionalQuality">Professional quality</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-slide">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80" alt="Studio Lighting">
+                            <div class="card-overlay">
+                                <h3>Studio Lighting</h3>
+                                <p>Creative excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-slide">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80" alt="Concert Lighting">
+                            <div class="card-overlay">
+                                <h3>Concert Lighting</h3>
+                                <p>Dynamic performance</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-slide">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80" alt="Commercial Production">
+                            <div class="card-overlay">
+                                <h3>Commercial Production</h3>
+                                <p>Brand storytelling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="hero-arrow hero-prev">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="hero-arrow hero-next">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                
+                <div class="hero-dots">
+                    <button class="hero-dot active"></button>
+                    <button class="hero-dot"></button>
+                    <button class="hero-dot"></button>
+                    <button class="hero-dot"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="services.title">OUR SERVICES</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Professional lighting solutions</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3 data-i18n="services.filmLighting">Film Lighting</h3>
+                    <p data-i18n="services.filmLightingDesc">Complete professional lighting solutions for cinematographic projects. Perfect lighting for every shoot.</p>
+                </div>
+                
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 data-i18n="services.commercialShooting">Commercial Shoots</h3>
+                    <p data-i18n="services.commercialShootingDesc">Creative lighting designs and solutions for advertising and commercial projects.</p>
+                </div>
+                
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 data-i18n="services.studioLighting">Studio Lighting</h3>
+                    <p data-i18n="services.studioLightingDesc">Complete equipment and service for studio shoots and podcast productions.</p>
+                </div>
+                
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 data-i18n="services.eventLighting">Event Lighting</h3>
+                    <p data-i18n="services.eventLightingDesc">Dynamic lighting systems for concerts, theater and special events.</p>
+                </div>
+                
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-i18n="services.equipmentRental">Equipment Rental</h3>
+                    <p data-i18n="services.equipmentRentalDesc">Rental of professional lighting equipment with the latest technology.</p>
+                </div>
+                
+                <div class="service-card scroll-animate">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-i18n="services.consultationService">Consultation Service</h3>
+                    <p data-i18n="services.consultationServiceDesc">Expert advice on project planning and lighting design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section films-section" id="films">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="films.title">FILMS</h2>
+                <p class="section-subtitle" data-i18n="films.subtitle">Our feature film projects</p>
+            </div>
+            
+            <div class="portfolio-slider-container">
+                <div class="portfolio-slider">
+                    
+                    <div class="portfolio-slide active">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80" alt="Film Project 1">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="films.cat1">Feature Film</div>
+                            <h3 class="slide-title" data-i18n="films.desc1">Lighting design and professional execution for full-length feature film.</h3>
+                            <div class="slide-date">15.03.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="film1" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&q=80" alt="Film Project 2">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="films.cat2">Drama Film</div>
+                            <h3 class="slide-title" data-i18n="films.desc2">Atmospheric lighting and special effects for emotional scenes.</h3>
+                            <div class="slide-date">22.06.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="film2" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80" alt="Film Project 3">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="films.cat3">Documentary</div>
+                            <h3 class="slide-title" data-i18n="films.desc3">Natural and professional lighting solutions for real-life stories.</h3>
+                            <div class="slide-date">10.09.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="film3" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+                
+                <button class="slider-arrow prev-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="slider-arrow next-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                
+                <div class="slider-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section commercials-section" id="commercials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="commercials.title">COMMERCIALS</h2>
+                <p class="section-subtitle" data-i18n="commercials.subtitle">Our commercial projects</p>
+            </div>
+            
+            <div class="portfolio-slider-container">
+                <div class="portfolio-slider">
+                    
+                    <div class="portfolio-slide active">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80" alt="Commercial 1">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="commercials.category1">Brand Commercial</div>
+                            <h3 class="slide-title" data-i18n="commercials.description1">Creative lighting design for high-quality brand advertising.</h3>
+                            <div class="slide-date">08.04.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="commercial1" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80" alt="Commercial 2">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="commercials.category2">Product Commercial</div>
+                            <h3 class="slide-title" data-i18n="commercials.description2">Studio lighting and composition for best product presentation.</h3>
+                            <div class="slide-date">12.07.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="commercial2" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80" alt="Commercial 3">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="commercials.category3">TV Commercial</div>
+                            <h3 class="slide-title" data-i18n="commercials.description3">Dynamic and engaging lighting design and execution for television.</h3>
+                            <div class="slide-date">25.11.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="commercial3" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+                
+                <button class="slider-arrow prev-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="slider-arrow next-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                
+                <div class="slider-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section clips-section" id="clips">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="clips.title">CLIPS</h2>
+                <p class="section-subtitle" data-i18n="clips.subtitle">Our music video projects</p>
+            </div>
+            
+            <div class="portfolio-slider-container">
+                <div class="portfolio-slider">
+                    
+                    <div class="portfolio-slide active">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800&q=80" alt="Music Video 1">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="clips.cat1">Music Video</div>
+                            <h3 class="slide-title" data-i18n="clips.desc1">Special lighting solutions for dynamic and energetic music video.</h3>
+                            <div class="slide-date">05.05.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="clip1" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80" alt="Music Video 2">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="clips.cat2">Pop Music Video</div>
+                            <h3 class="slide-title" data-i18n="clips.desc2">Modern pop music video lighting with colorful and bright visual effects.</h3>
+                            <div class="slide-date">18.08.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="clip2" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80" alt="Music Video 3">
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-category" data-i18n="clips.cat3">Concert Shoot</div>
+                            <h3 class="slide-title" data-i18n="clips.desc3">Professional stage lighting and dynamic effects for live performance.</h3>
+                            <div class="slide-date">30.12.2023</div>
+                            <button class="btn-secondary view-case-btn" data-case-id="clip3" data-i18n="films.viewCase">VIEW CASE</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+                
+                <button class="slider-arrow prev-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="slider-arrow next-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                
+                <div class="slider-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 data-i18n="contact.title">CONTACT</h2>
+                    <p data-i18n="contact.description">Let's talk about your project and offer you the best solution.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item scroll-animate">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong data-i18n="contact.phone">Phone</strong>
+                                <span>+994 XX XXX XX XX</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item scroll-animate">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="contact.email">Email</strong>
+                                <span>info@lightcrewaz.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item scroll-animate">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong data-i18n="contact.address">Address</strong>
+                                <span>Bakı, Azərbaycan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" data-i18n-placeholder="contact.namePlaceholder" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" data-i18n-placeholder="contact.phonePlaceholder" placeholder="Phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea data-i18n-placeholder="contact.messagePlaceholder" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" data-i18n="contact.send">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">LIGHT CREW AZ</div>
+                    <p data-i18n="footer.description">Professional Gaffer Services | Cinematic Lighting Excellence</p>
+                </div>
+                
+                <div class="link-group">
+                    <h4 data-i18n="footer.links">LINKS</h4>
+                    <a href="#home" data-i18n="navigation.home">Home</a>
+                    <a href="#services" data-i18n="navigation.services">Services</a>
+                    <a href="#films" data-i18n="navigation.films">Films</a>
+                    <a href="#commercials" data-i18n="navigation.commercials">Commercials</a>
+                    <a href="#clips" data-i18n="navigation.clips">Clips</a>
+                    <a href="#contact" data-i18n="navigation.contact">Contact</a>
+                </div>
+                
+                <div class="link-group">
+                    <h4 data-i18n="contact.title">CONTACT</h4>
+                    <a href="tel:+994">+994 XX XXX XX XX</a>
+                    <a href="mailto:info@lightcrewaz.com">info@lightcrewaz.com</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">© 2024 Light Crew Azerbaijan. All rights reserved.</p>
+                <p class="created-by">Created by Harunov</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div id="caseStudyModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-header">
+            <h2 id="modalTitle">Project Title Placeholder</h2>
+            <p id="modalCategory" class="slide-category">Category</p>
+        </div>
+        
+        <div class="modal-body">
+            <section class="modal-section">
+                <h3>GAFFER'S VISION</h3>
+                <p id="modalDescription" class="gaffer-description"></p>
+            </section>
+            
+            <section class="modal-section">
+                <h3>KEY LIGHTING & GRIP</h3>
+                <ul id="modalEquipment" class="equipment-list">
+                    </ul>
+            </section>
+            
+            <section class="modal-section">
+                <h3>BEHIND THE SCENES</h3>
+                <div id="modalGallery" class="modal-gallery-grid">
+                    </div>
+            </section>
+        </div>
+        
+    </div>
+</div>
+<canvas id="particleCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

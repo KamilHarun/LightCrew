@@ -1,0 +1,83 @@
+{
+"navigation": {
+"home": "ANA SƏHİFƏ",
+"team": "KOMANDA",
+"films": "FİLMLƏR",
+"commercials": "REKLAMLAR",
+"clips": "KLİPLƏR",
+"contact": "ƏLAQƏ",
+"consultation": "MƏSLƏHƏT ALIN"
+},
+"hero": {
+"description": "Professional Gaffer Xidmətləri | Kinematoqrafik İşıqlandırma Ekspertliyi | Azərbaycanda İşıq və Grip",
+"contactUs": "ƏLAQƏ SAXLAYIN",
+"viewWork": "İŞLƏRİMİZƏ BAXIN",
+"projects": "LAYİHƏ",
+"experience": "İL TƏCRÜBƏ",
+"filmLighting": "Film İşıqlandırması",
+"professionalQuality": "Professional keyfiyyət"
+},
+"services": {
+"title": "XİDMƏTLƏRİMİZ",
+"subtitle": "Professional işıqlandırma həlləri",
+"filmLighting": "Film İşıqlandırması",
+"filmLightingDesc": "Kinematoqrafik layihələr üçün tam profesional işıqlandırma həlləri. Hər bir çəkiliş üçün mükəmməl işıq.",
+"commercialShooting": "Reklam Çəkilişləri",
+"commercialShootingDesc": "Reklam və kommersiya layihələri üçün yaradıcı işıq dizaynları və həlləri.",
+"studioLighting": "Studiya İşıqlandırması",
+"studioLightingDesc": "Studiya çəkilişləri və podcast istehsalları üçün tam avadanlıq və xidmət.",
+"eventLighting": "Tədbir İşıqlandırması",
+"eventLightingDesc": "Konsertlər, teatr və xüsusi tədbirlər üçün dinamik işıqlandırma sistemləri.",
+"equipmentRental": "Avadanlıq Kirayəsi",
+"equipmentRentalDesc": "Ən son texnologiyalarla professional işıqlandırma avadanlıqlarının kirayəsi.",
+"consultationService": "Məsləhət Xidməti",
+"consultationServiceDesc": "Layihə planlaması və işıq dizaynı üzrə ekspert məsləhəti."
+},
+"films": {
+    "title": "FİLMLƏR",
+    "subtitle": "Bədii film layihələrimiz",
+    "cat1": "Bədii Film",
+    "desc1": "Tam metrajlı bədii film üçün işıq dizaynı və professional icra.",
+    "cat2": "Dram Film",
+    "desc2": "Emosional səhnələr üçün atmosferli işıqlandırma və xüsusi effektlər.",
+    "cat3": "Sənədli Film",
+    "desc3": "Real həyat hekayələri üçün təbii və professional işıq həlləri."
+  },
+  "commercials": {
+    "title": "REKLAMLAR",
+    "subtitle": "Komersiya layihələrimiz",
+    "category1": "Brend Reklamı",
+    "description1": "Yüksək keyfiyyətli brend reklamı üçün yaradıcı işıq dizaynı.",
+    "category2": "Məhsul Reklamı",
+    "description2": "Ən yaxşı məhsul təqdimatı üçün studiya işıqlandırması və kompozisiya.",
+    "category3": "TV Reklam",
+    "description3": "Televiziya üçün dinamik və cəlbedici işıq dizaynı və icrası."
+  },
+  "clips": {
+    "title": "KLİPLƏR",
+    "subtitle": "Musiqi klipi layihələrimiz",
+    "cat1": "Musiqi Klipi",
+    "desc1": "Dinamik və enerjili musiqi klipi üçün xüsusi işıq həlləri.",
+    "cat2": "Pop Musiqi Klipi",
+    "desc2": "Rəngli və parlaq vizual effektlərlə müasir pop musiqi klipi işıqlandırması.",
+    "cat3": "Konsert Çəkilişi",
+    "desc3": "Canlı performans üçün professional səhnə işıqlandırması və dinamik effektlər."
+  },
+"contact": {
+"title": "ƏLAQƏ",
+"description": "Layihəniz haqqında danışaq və sizə ən yaxşı həlli təklif edək.",
+"phone": "Telefon",
+"email": "E-poçt",
+"address": "Ünvan",
+"namePlaceholder": "Adınız",
+"emailPlaceholder": "E-poçt",
+"phonePlaceholder": "Telefon",
+"messagePlaceholder": "Mesajınız",
+"send": "GÖNDƏR"
+},
+"footer": {
+"description": "Professional Gaffer Xidmətləri | Kinematoqrafik İşıqlandırma Ekspertliyi",
+"links": "KEÇİDLƏR",
+"copyright": "© 2024 Light Crew Azerbaijan. Bütün hüquqlar qorunur."
+}
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əlaqə | Light Crew Azerbaijan</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="nav-logo">LIGHT CREW AZ</div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html#home" class="home-link">HOME</a></li>
+                <li><a href="team.html" class="active">TEAM</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <div class="language-dropdown">
+                    <button class="lang-globe-btn">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-badge" id="current-lang-code">AZ</span>
+                    </button>
+                    <div class="lang-dropdown-menu" id="lang-menu">
+                        <div class="lang-option active" data-lang="az">
+                            <span class="lang-flag">🇦🇿</span>
+                            <span class="lang-name">Azərbaycan</span>
+                        </div>
+                        <div class="lang-option" data-lang="en">
+                            <span class="lang-flag">🇺🇸</span>
+                            <span class="lang-name">English</span>
+                        </div>
+                        <div class="lang-option" data-lang="ru">
+                            <span class="lang-flag">🇷🇺</span>
+                            <span class="lang-name">Русский</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-cta" onclick="window.location.href='index.html#services'">XİDMƏTLƏRİMİZ</button>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="scrolling-text"> 
+            <div class="scroll-content">
+                <span class="scroll-item">LightCrewAz</span>
+                <span class="scroll-item">LightCrewAz</span>
+                <span class="scroll-item">LightCrewAz</span>
+                <span class="scroll-item">LightCrewAz</span>
+                <span class="scroll-item">LightCrewAz</span>
+                <span class="scroll-item">LightCrewAz</span>
+            </div>
+        </div>
+
+        <h1 class="main-title">BİZİMLƏ ƏLAQƏ</h1>
+
+        <div class="globe-wrapper">
+            <div class="spin-globe">
+                <svg class="globe-svg" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="48" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+                    
+                    <line x1="2" y1="50" x2="98" y2="50" stroke="var(--primary-color)" stroke-width="3" />
+                    
+                    <path d="M50 2 C10 10, 10 90, 50 98" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+                    <path d="M50 2 C90 10, 90 90, 50 98" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+
+                    <path d="M50 2 C25 20, 25 80, 50 98" fill="none" stroke="var(--primary-color)" stroke-width="1.5" opacity="0.6"/>
+                    <path d="M50 2 C75 20, 75 80, 50 98" fill="none" stroke="var(--primary-color)" stroke-width="1.5" opacity="0.6"/>
+                </svg>
+            </div>
+        </div>
+
+        <form class="form-container" id="contactForm">
+            <div class="form-group">
+                <label for="ad" class="form-label">AD*</label>
+                <input type="text" id="ad" name="ad" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="soyad" class="form-label">SOYAD*</label>
+                <input type="text" id="soyad" name="soyad" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="telefon" class="form-label">TELEFON</label>
+                <input type="tel" id="telefon" name="telefon" class="form-input">
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="form-label">E-MAİL*</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            
+            <div class="form-group full-width">
+                <label for="mesajiniz" class="form-label">MESAJINIZ*</label>
+                <textarea id="mesajiniz" name="mesajiniz" class="form-textarea" required></textarea>
+            </div>
+            
+            <div class="form-group full-width" style="text-align: center;">
+                <button type="submit" class="submit-button gradient-button">GÖNDƏR</button>
+            </div>
+            
+            <p id="form-status" class="full-width" style="text-align: center; margin-top: 1rem;"></p>
+        </form>
+
+        <div class="info-section">
+            <div class="info-block">
+                <h3>ÜNVAN</h3>
+                <p>
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    Bakı, Azərbaycan<br>
+                    Film Production District
+                </p>
+            </div>
+            
+            <div class="info-block">
+                <h3>ƏLAQƏ</h3>
+                <p>
+                    <i class="fas fa-phone contact-icon"></i>
+                    <a href="tel:+994XXXXXXXXX">+994 XX XXX XX XX</a><br>
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <a href="mailto:info@lightcrewaz.com">info@lightcrewaz.com</a>
+                </p>
+            </div>
+            
+            <div class="info-block">
+                <h3>SOSİAL ŞƏBƏKƏLƏR</h3>
+                <p>
+                    <i class="fab fa-instagram contact-icon"></i>
+                    <a href="https://instagram.com/lightcrewaz" target="_blank">Instagram</a><br>
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <a href="#" target="_blank">LinkedIn</a><br>
+                    <i class="fab fa-vimeo contact-icon"></i>
+                    <a href="#" target="_blank">Vimeo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="contact.js"></script>
+</body>
+</html>
