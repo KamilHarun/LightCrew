@@ -1786,3 +1786,8 @@ button, input, textarea { font-family: var(--font); }
     .dot { width: 8px; height: 8px; }
     .slider-arrow { width: 40px; height: 40px; }
 }
+@media screen and (max-width: 768px) {
+    .hero-title-block {
+        margin-top: 100px; /* Əgər yenə yuxarıda qalsa, bu rəqəmi 120px və ya 140px edə bilərsən */
+    }
+}
