@@ -22,6 +22,7 @@
 }
 .contact-page .nav-logo { color: #111; }
 .contact-page .nav-logo::before { border-color: #111; }
+.contact-page .nav-logo--img img { filter: brightness(0) !important; }
 .contact-page .vc-globe-icon { border-color: rgba(0,0,0,0.25); }
 .contact-page .vc-globe-icon::after { background: rgba(0,0,0,0.25); }
 .contact-page .vc-lang:hover .vc-globe-icon { border-color: rgba(0,0,0,0.7); }
